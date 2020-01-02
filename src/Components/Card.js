@@ -14,7 +14,8 @@ class Card extends React.Component{
     }
 
     displayAuthor = () => {
-        this.setState({ show : true })
+        
+        this.setState({ show :  ! this.state.show })
     }
     render(){
         return(
